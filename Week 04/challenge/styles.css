@@ -1,0 +1,18 @@
+body {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}    
+h1 {color: white;
+    text-align: center;
+}
+h2 {text-align: center;
+}
+h3 {text-align: center;}
+
+img {size-adjust: 50px;
+align-content: center;}
+
+ol {text-align: center;
+    list-style-position: center;
+}
