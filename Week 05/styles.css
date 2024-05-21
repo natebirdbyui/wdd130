@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    width: max-content;
+}
+.webbubbles {
+    height: auto;
+    width: auto;
+    
+    display: block;
+    margin: 0 auto;
+    background-color: gray;    
+}
+
+.bottom-3{    
+    display: flex;
+    justify-content: center;
+    align-items: left;    
+}
+
+.bottom-3 img{
+    display: 15px;
+    border-radius: 50%;
+    border: solid 10px;
+    border-color: rgb(49, 49, 49);
+    width: 250px;
+    margin:25px;
+}

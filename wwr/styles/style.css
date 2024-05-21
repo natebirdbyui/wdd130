@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-title {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2em;
+    color: white;
+
+}  
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
@@ -29,26 +42,33 @@ nav a:hover {
     background-color: #696574;
     color: white;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .msg {
     background-color: #707465;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #707465;
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 nav a {
     color: #134266;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
-.home-title {
-    color: white;
-}
 
 h4{
     color: white;
@@ -64,11 +84,10 @@ h4{
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding: 35px;
 }
 
-footer {
-    color:white
-}
 
 footer a {
     color: white; 
@@ -90,4 +109,29 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;}
+
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card, .mountains {
+       margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #707465;
+}
+main section img {
+    box-sizing: border-box;
 }
