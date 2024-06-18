@@ -229,6 +229,159 @@ nav {
     box-shadow: 5px 5px 10px #707465;
 }
 
+/* RIVERS CSS PAGE (until media screen) Make sure to make a media screen version for river page*/
+#riverimagebannersite{
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1;
+    border-radius: 5%;
+}
+#hero-msg{
+    z-index: 1;
+}
+.river-title{
+    display: grid;
+    
+    text-align: center;
+    margin: -150px;
+    padding-bottom: 100px;
+    color: white;
+        
+    z-index: 1;
+    align-content: center;
+    font-size: 2.5em;
+    
+}
+.main_fork_salmon_river{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #707465;
+    padding: 15px;
+    border-radius: 5%;
+    
+}
+#bighorn-ram{
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 5%;
+    transition: all .5s;
+}
+#bighorn-ram:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.main_fork_salmon_river p{
+    grid-column: 1/3;
+    margin: 10px;
+    
+    color: white;
+    font-size: 1.3em;
+    
+}
+.main_fork_salmon_river h1{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 3.5em;
+    align-self: center;
+    color: white;
+}
+
+.desolation_and_gray_canyon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px 700px;
+    background-color: #707465;
+    margin-top: 125px;
+    margin-bottom: 150px;
+    padding: 15px;
+    border-radius: 5%;
+}
+.desolation_and_gray_canyon p{
+    grid-column: 2/4;
+    margin: 10px;
+    grid-row: 2/4;
+    color: white;
+    font-size: 1.3em;
+    
+}
+.desolation_and_gray_canyon h1{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 3.5em;
+    align-self: center;
+    color: white;
+}
+#riverspage-waterfall{
+    width: 100%;
+    grid-column: 1/2;
+    
+    align-content: center;
+    border-radius: 5%;
+    transition: all .5s;
+}
+#riverspage-waterfall:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+/*Grand Canyon, AZ*/
+.grandcanyon-az{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #707465;
+    padding: 15px;
+    border-radius: 5%;
+}
+.grandcanyon-az h1{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 3.5em;
+    align-self: center;
+    color: white;
+}
+
+.grandcanyon-az p{
+    grid-column: 1/3;
+    margin: 10px;
+    grid-row: 2/3;
+    color: white;
+    font-size: 1.3em;
+}
+#canyon-river{
+    grid-column: 3/4;
+    width: 100%;
+    border-radius: 5%;
+    transition: all .5s;
+}
+#canyon-river:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+#facebook{
+    transition: all .5s;
+}
+#facebook:hover{
+    opacity:.6;
+    transform: scale(1.1);
+}
+#twitter{
+    transition: all .5s;
+}
+#twitter:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+#instagram{
+    transition: all .5s;
+}
+#instagram:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
