@@ -230,6 +230,7 @@ nav {
 }
 
 /* RIVERS CSS PAGE (until media screen) Make sure to make a media screen version for river page*/
+/* Main Fork of the Salmon River, ID*/
 #riverimagebannersite{
     width: 100%;
     margin-top: -200px;
@@ -244,7 +245,7 @@ nav {
     
     text-align: center;
     margin: -150px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     color: white;
         
     z-index: 1;
@@ -255,7 +256,7 @@ nav {
 .main_fork_salmon_river{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-color: #707465;
     padding: 15px;
     border-radius: 5%;
@@ -287,11 +288,12 @@ nav {
     align-self: center;
     color: white;
 }
+/*Desolate and Gray Canyon, UT*/
 
 .desolation_and_gray_canyon{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 350px 700px;
+    grid-template-rows: repeat(1, 1fr) /*350px 700px*/;
     background-color: #707465;
     margin-top: 125px;
     margin-bottom: 150px;
@@ -300,7 +302,7 @@ nav {
 }
 .desolation_and_gray_canyon p{
     grid-column: 2/4;
-    margin: 10px;
+    margin: 100px;
     grid-row: 2/4;
     color: white;
     font-size: 1.3em;
@@ -317,7 +319,7 @@ nav {
     width: 100%;
     grid-column: 1/2;
     
-    align-content: center;
+    
     border-radius: 5%;
     transition: all .5s;
 }
@@ -330,7 +332,7 @@ nav {
 .grandcanyon-az{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-color: #707465;
     padding: 15px;
     border-radius: 5%;
