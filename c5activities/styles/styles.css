@@ -199,3 +199,56 @@ footer{
     background-color: #ed1c24;
     color: #68b031;
 }
+
+@media screen and (max-width: 900px) {
+  nav, footer, header{
+    flex-direction: column;
+  }
+  nav a, .navigation1, .navigation2{
+    display: block;
+  }
+  .home-grid{
+    display: block;
+  }
+  .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
+    display: block;
+    margin-top: 0;
+    width: 80%;
+  }
+  .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
+    display: block;
+
+  }
+  .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
+    display: block;
+  }
+  .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  .homepageh1{
+    display: block;
+  }
+  .toth1, #xmash1{
+    display: block;
+  }
+  .totevent, .xmasevent{
+    display: block;
+    width: 80%; 
+  }
+  .totevent ul, .xmasevent ul{
+    display: block;
+    list-style:disc;
+  }
+  .footerhomebutton a, footer p, footer ul a, .footersiteplan a {
+    flex-direction: column;
+    display: block;
+  }
+  #facebook, #lds, #logo_link, .homebutton, .dropdown, .future_eventsfootlist, .footerhomebutton, .footersiteplan{
+    flex-direction: column;
+  }
+}
