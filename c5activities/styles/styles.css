@@ -217,10 +217,14 @@ footer{
   }
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
     display: block;
+    margin-top: 0;
+    width: 80%;
 
   }
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
     display: block;
+    margin-top: 0;
+    width: 80%;
   }
   .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1{
     width: 75%;
