@@ -202,29 +202,39 @@ footer{
 
 @media screen and (max-width: 900px) {
   nav, footer, header{
+    width: 80%;
     flex-direction: column;
+    margin: 0 auto;
+    display: inline-block;
+    background: #ffde59;
   }
   nav a, .navigation1, .navigation2{
-    display: block;
+    width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+    background: #ffde59;
   }
   .home-grid{
     display: block;
   }
   .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
     display: block;
-    margin-top: 0;
+    
     width: 80%;
+    margin: 0 auto;
   }
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
     display: block;
-    margin-top: 0;
+    
     width: 80%;
+    margin: 0 auto;
 
   }
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
     display: block;
-    margin-top: 0;
+    
     width: 80%;
+    margin: 0 auto;
   }
   .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1{
     width: 75%;
