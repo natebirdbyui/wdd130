@@ -86,10 +86,21 @@ nav a, .navigation1, .navigation2{
   transition: all .5s;
   width: 100%;
 }
+.movienightphoto1{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
 .mainp1, .totpara1, .xmaspara1{
   grid-column: 2/4;
   grid-row:2/3;  
   font-size: 1.1em;
+  margin-right: 10%;
+}
+.movienightpara1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 1.1em;
+  margin-left: 20%;
   margin-right: 10%;
 }
 .mainp2, .totpara2, .xmaspara2{
@@ -105,7 +116,7 @@ nav a, .navigation1, .navigation2{
   margin-left: auto;
   margin-right: auto;
 }
-.toth1, #xmash1{
+.toth1, #xmash1, .movienighth1{
   grid-column: 1/4;
   margin-left: auto;
   margin-right: auto;
@@ -202,7 +213,7 @@ footer{
 
 @media screen and (max-width: 900px) {
   nav, footer, header{
-    width: 80%;
+    width: 100%;
     flex-direction: column;
     margin: 0 auto;
     display: inline-block;
@@ -222,6 +233,14 @@ footer{
     
     width: 80%;
     margin: 0 auto;
+  }
+  .movienightphoto1{
+    max-width:fit-content;
+    max-height: fit-content;
+    align-items: center;
+    
+    
+    
   }
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
     display: block;
