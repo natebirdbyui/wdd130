@@ -280,6 +280,7 @@ footer{
   }
   .home-grid, .event-grid{
     display: block;
+    width: 100%;
   }
   .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
     display: block;
