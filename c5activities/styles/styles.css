@@ -10,8 +10,8 @@
     font-weight: 400;
     font-style: normal;
 }
-.home-grid, nav, .dropbtn, footer{
-  font-family: "Caveat", cursive;
+.home-grid, nav, .dropbtn, footer, .event-grid{
+  font-family: "Caveat", serif;
   
   font-weight: 400;
   font-style: normal;
@@ -63,6 +63,13 @@ nav a, .navigation1, .navigation2{
   background-color: #5371ff;
   color:white;
 }
+.event-grid{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: 1fr 1fr;
+  background-color: #5371ff;
+  color:white;
+}
 
 /* ALL PAGES Text and Photo */
 .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
@@ -98,6 +105,7 @@ nav a, .navigation1, .navigation2{
   grid-row: 2/3;
   margin: auto;
   margin-left: 10%;
+  margin-right:20%;
 }
 .mainpagephoto1:hover, .mainpagephoto2:hover, .totpagephoto1:hover, .totpagephoto2:hover, .thexmasphoto1:hover, .thexmasphoto2:hover{
   transform: scale(1.15);
@@ -157,10 +165,26 @@ nav a, .navigation1, .navigation2{
   grid-row: 4/5;
   text-align: center;
   }
-.totevent ul, .xmasevent ul{
+.event-grid ul, .xmasevent ul{
   list-style-type: none;
   text-align: justify;
 }
+.totevent1{
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.totevent2{
+  grid-column: 5/7;
+  grid-row: 2/3;
+}
+.event-gridh1{
+  grid-column: 1/8;
+  grid-row: 1/2;
+  text-align: center;
+  margin: auto;
+  font-size: 2.5em;
+}
+
 
 
 
@@ -254,7 +278,7 @@ footer{
     margin: 0 auto;
     background: #ffde59;
   }
-  .home-grid{
+  .home-grid, .event-grid{
     display: block;
   }
   .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
