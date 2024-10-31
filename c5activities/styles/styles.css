@@ -268,77 +268,61 @@ footer{
 }
 
 @media screen and (max-width: 900px) {
-  nav, footer, header{
+  nav, footer, header {
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
-    display: inline-block;
+    display: flex; /* Use flexbox for stacking */
     background: #ffde59;
-  }
-  nav a, .navigation1, .navigation2{
-    width: 80%;
-    display: inline-block;
-    margin: 0 auto;
-    background: #ffde59;
-  }
-  .home-grid, .event-grid{
-    display: block;
-    width: 100%;
-  }
-  .mainpagephoto1, .totpagephoto1, .thexmasphoto1{
-    display: block;
-    
-    width: 80%;
-    margin: 0 auto;
-  }
-  .movienightphoto1{
-    max-width:fit-content;
-    max-height: fit-content;
-    align-items: center;
-    
-    
-    
-  }
-  .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
-    display: block;
-    
-    width: 80%;
-    margin: 0 auto;
-
-  }
-  .mainpagephoto2, .totpagephoto2, .thexmasphoto2{
-    display: block;
-    
-    width: 80%;
-    margin: 0 auto;
-  }
-  .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1{
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    
   }
   
-  .homepageh1{
-    display: block;
+  nav a, .navigation1, .navigation2 {
+    width: 80%;
+    margin: 0 auto;
+    background: #ffde59;
+    text-align: center; /* Center text */
   }
-  .toth1, #xmash1{
-    display: block;
+  
+  .home-grid, .event-grid {
+    display: block; /* Single column layout */
+    width: 100%;
   }
-  .totevent, .xmasevent{
+  
+  .mainpagephoto1, .totpagephoto1, .thexmasphoto1,
+  .mainpagephoto2, .totpagephoto2, .thexmasphoto2 {
+    display: block;
+    width: 80%; /* Responsive width */
+    max-width: 100%; /* Prevent overflow */
+    margin: 20px auto; /* Center images with auto margins */
+    transition: transform .5s; /* Smooth scaling */
+  }
+
+  .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1 {
+    width: 90%; /* Wider for better readability */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em; /* Increased font size */
+  }
+
+  .totevent, .xmasevent {
     display: block;
     width: 80%; 
   }
-  .totevent ul, .xmasevent ul{
+  
+  .totevent ul, .xmasevent ul {
     display: block;
-    list-style:disc;
+    list-style: disc; /* Ensure visible list style */
   }
+  
   .footerhomebutton a, footer p, footer ul a, .footersiteplan a {
     flex-direction: column;
     display: block;
+    width: 100%; /* Full width for links */
+    text-align: center; /* Center text */
   }
-  #facebook, #lds, #logo_link, .homebutton, .dropdown, .future_eventsfootlist, .footerhomebutton, .footersiteplan{
+
+  #facebook, #lds, #logo_link, .homebutton, .dropdown, .future_eventsfootlist, .footerhomebutton, .footersiteplan {
     flex-direction: column;
+    text-align: center; /* Center aligned for consistency */
   }
 }
