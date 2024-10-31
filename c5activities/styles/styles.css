@@ -1,4 +1,14 @@
 @import url("'https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box; /* Include padding and borders in width/height */
+}
+
+html, body {
+  width: 100%; /* Ensure full width */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
 .caveat {
     font-family: "Caveat", cursive;
     
@@ -277,7 +287,7 @@ footer{
   }
   
   nav a, .navigation1, .navigation2 {
-    width: 80%;
+    width: 100%; /* Adjusted to full width */
     margin: 0 auto;
     background: #ffde59;
     text-align: center; /* Center text */
@@ -291,7 +301,7 @@ footer{
   .mainpagephoto1, .totpagephoto1, .thexmasphoto1,
   .mainpagephoto2, .totpagephoto2, .thexmasphoto2 {
     display: block;
-    width: 80%; /* Responsive width */
+    width: 100%; /* Fit to screen width */
     max-width: 100%; /* Prevent overflow */
     margin: 20px auto; /* Center images with auto margins */
     transition: transform .5s; /* Smooth scaling */
@@ -306,7 +316,7 @@ footer{
 
   .totevent, .xmasevent {
     display: block;
-    width: 80%; 
+    width: 100%; /* Adjusted for full width */
   }
   
   .totevent ul, .xmasevent ul {
@@ -326,3 +336,69 @@ footer{
     text-align: center; /* Center aligned for consistency */
   }
 }
+
+/* Add this style to prevent horizontal scrolling */
+body {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+
+/*@media screen and (max-width: 900px) {
+/*  nav, footer, header {
+/*    width: 100%;
+/*    flex-direction: column;
+/*    margin: 0 auto;
+/*    display: flex; /* Use flexbox for stacking */
+/*    background: #ffde59;
+/*  }
+/*  
+/*  nav a, .navigation1, .navigation2 {
+/*    width: 80%;
+/*    margin: 0 auto;
+/*    background: #ffde59;
+/*    text-align: center; /* Center text */
+/*  }
+/*  
+/*  .home-grid, .event-grid {
+/*    display: block; /* Single column layout */
+/*    width: 100%;
+/*  }
+/*  
+/*  .mainpagephoto1, .totpagephoto1, .thexmasphoto1,
+/*  .mainpagephoto2, .totpagephoto2, .thexmasphoto2 {
+/*    display: block;
+/*    width: 80%; /* Responsive width */
+/*    max-width: 100%; /* Prevent overflow */
+/*    margin: 20px auto; /* Center images with auto margins */
+/*    transition: transform .5s; /* Smooth scaling */
+/*  }
+/*
+/*  .mainp1, .totpara1, .xmaspara1, .mainp2, .totpara2, .xmaspara2, .homepageh1 {
+/*    width: 90%; /* Wider for better readability */
+/*    margin: 0 auto;
+/*    text-align: center;
+/*    font-size: 1.2em; /* Increased font size */
+/*  }
+/*
+/*  .totevent, .xmasevent {
+/*    display: block;
+/*    width: 80%; 
+/*  }
+/*  
+/*  .totevent ul, .xmasevent ul {
+/*    display: block;
+/*    list-style: disc; /* Ensure visible list style */
+/*  }
+/*  
+/*  .footerhomebutton a, footer p, footer ul a, .footersiteplan a {
+/*    flex-direction: column;
+/*    display: block;
+/*    width: 100%; /* Full width for links */
+/*    text-align: center; /* Center text */
+/*  }
+/*
+/*  #facebook, #lds, #logo_link, .homebutton, .dropdown, .future_eventsfootlist, .footerhomebutton, .footersiteplan {
+/*    flex-direction: column;
+/*    text-align: center; /* Center aligned for consistency */
+/*  }
+/*}
