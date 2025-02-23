@@ -1,4 +1,4 @@
-@import url("'https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   box-sizing: border-box; /* Include padding and borders in width/height */
 }
@@ -82,7 +82,7 @@ nav a, .navigation1, .navigation2{
 }
 
 /* ALL PAGES Text and Photo */
-.mainpagephoto1, .totpagephoto1, .thexmasphoto1{
+.mainpagephoto1, .totpagephoto1, .thexmasphoto1,.chilicookoffphoto1{
   grid-column: 1/2;
   grid-row: 2/3;
   padding: 5px;
@@ -94,6 +94,10 @@ nav a, .navigation1, .navigation2{
 .lingerlongerphoto2{
   grid-column: 1/2;
   grid-row: 2/3;
+}
+.chilicookoffphoto2{
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 .lingerlongerphoto1{
   grid-column: 3/4;
@@ -160,13 +164,18 @@ nav a, .navigation1, .navigation2{
   font-size: 1.1em;
   margin-left: 200px;
 }
+.chilicookoffp2{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 1.5em;
+}
 .homepageh1{
   grid-column: 1/4;
   align-self: center;
   margin-left: auto;
   margin-right: auto;
 }
-.toth1, #xmash1, .movienighth1, .lingerlongerh1{
+.toth1, #xmash1, .movienighth1, .lingerlongerh1, .chilicookoffh1{
   grid-column: 1/4;
   margin-left: auto;
   margin-right: auto;
